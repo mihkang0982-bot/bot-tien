@@ -14,7 +14,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 async def on_ready():
     print(f"Đã đăng nhập: {bot.user}")
   
-    channel_id = 1490092888539926711  
+    channel_id = 1453105958329782465  
 
     channel = bot.get_channel(channel_id)
 
